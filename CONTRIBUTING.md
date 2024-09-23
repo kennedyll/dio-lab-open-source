@@ -88,6 +88,25 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `refactor`     | Realiza mudanças no código que não alteram a funcionalidade.         | `refactor: refactor at CLASSNAME`
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
+**mkdir**: Criar pasta
+
+- Ex:
+1. mkdir test2
+
+**git init:** Transforma a pasta em um repositório
+
+- Ex:
+1. cd test2
+2. git init
+
+### Conectar e checar configurações do git
+
+1. cd + repositório
+2. cd .git 
+3. cat config
+4. git remote -v: mostra os repositórios que você está vinculado
+5. git remote add origin: vincular repositório local ao remoto
+
 
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
