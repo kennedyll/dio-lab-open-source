@@ -89,6 +89,32 @@ Após criar o seu Pull Request, nossa automação irá validar a sua submissão.
 | `test`         | Adiciona ou modifica testes no projeto.                              | `test: add unit test for UserService`
 
 
+## Códigos Git/GitHub
+
+**mkdir**: Criar pasta
+
+- Ex:
+1. mkdir teste
+
+**git init:** Transforma a pasta em um repositório
+
+- Ex:
+1. cd teste
+2. git init
+   
+**→ Git Commit:**
+
+Serve para gravar alterações no meu repositório.
+
+**→ Git Pull (Puxar):**
+
+Puxa as alterações do repositório remoto para o local (busca e mescla).
+
+**→ Git Push (Empurrar):**
+
+Empurra as alterações do repositório local para o remoto.
+
+
 ## Referências
 - [ANGULAR. Contributing to Angular](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md)
 - [CONVENTIONAL COMMITS. Summary](https://www.conventionalcommits.org/en/v1.0.0/)
